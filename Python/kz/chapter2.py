@@ -14,10 +14,10 @@ window=pygame.display.set_mode((width,height))#window width and height
 pygame.display.set_caption("First Game")#caption
 clock=pygame.time.Clock()
 
-walkLeft=[pygame.image.load('../img/L1.png'),pygame.image.load('../img/L2.png'),pygame.image.load('../img/L3.png'),pygame.image.load('../img/L4.png'),pygame.image.load('../img/L5.png'),pygame.image.load('../img/L6.png'),pygame.image.load('../img/L7.png'),pygame.image.load('../img/L8.png'),pygame.image.load('../img/L9.png')]
-walkRight=[pygame.image.load('../img/R1.png'),pygame.image.load('../img/R2.png'),pygame.image.load('../img/R3.png'),pygame.image.load('../img/R4.png'),pygame.image.load('../img/R5.png'),pygame.image.load('../img/R6.png'),pygame.image.load('../img/R7.png'),pygame.image.load('../img/R8.png'),pygame.image.load('../img/R9.png')]
-char=pygame.image.load('../img/standing.png')
-bg=pygame.image.load('../img/bg.jpg')
+walkLeft=[pygame.image.load('img/L1.png'),pygame.image.load('img/L2.png'),pygame.image.load('img/L3.png'),pygame.image.load('img/L4.png'),pygame.image.load('img/L5.png'),pygame.image.load('img/L6.png'),pygame.image.load('img/L7.png'),pygame.image.load('img/L8.png'),pygame.image.load('img/L9.png')]
+walkRight=[pygame.image.load('img/R1.png'),pygame.image.load('img/R2.png'),pygame.image.load('img/R3.png'),pygame.image.load('img/R4.png'),pygame.image.load('img/R5.png'),pygame.image.load('img/R6.png'),pygame.image.load('img/R7.png'),pygame.image.load('img/R8.png'),pygame.image.load('img/R9.png')]
+char=pygame.image.load('img/standing.png')
+bg=pygame.image.load('img/bg.jpg')
 #load png and jpg
 
 left=False
